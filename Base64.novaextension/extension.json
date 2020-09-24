@@ -1,0 +1,26 @@
+{
+    "identifier": "land.munson.Base64",
+    "name": "Base64",
+    "organization": "Munson Land",
+    "description": "Adds Base64 Encoding/Decoding to Nova",
+    "version": "1.0",
+    "license": "MIT",
+    "bugs": "https://github.com/archaica/Base64/issues",
+    
+    "categories": ["formatters"],
+    "main": "main.js",
+    "commands": {
+        "editor": [
+            {
+                "title": "Encode",
+                "command": "base64.encode",
+                "when": "editorHasSelection"
+            },
+            {
+                "title": "Decode",
+                "command": "base64.decode",
+                "when": "editorHasSelection"
+            }
+        ]
+    }
+}
