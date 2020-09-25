@@ -3,7 +3,7 @@
     "name": "Base64",
     "organization": "Munson Land",
     "description": "Adds Base64 Encoding/Decoding to Nova",
-    "version": "1.0",
+    "version": "1.0.1",
     "license": "MIT",
     "bugs": "https://github.com/archaica/Base64/issues",
     
